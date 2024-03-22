@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'cloudnative'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_1d631a1811ba47e0a22bee2a09e5e5f8 }}
+          publish-profile: ${{ secrets.KEYSECRET }}
